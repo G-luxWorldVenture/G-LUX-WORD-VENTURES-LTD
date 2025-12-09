@@ -1,0 +1,272 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>G-LUX WORLD VENTURES — Luxury Bathroom Accessories</title>
+<meta name="description" content="G-Lux World Ventures — Luxury bathroom accessories: showers, towel rails, basins, cabinets, tap mixers, water heaters.">
+
+<!-- FAVICON (optional) -->
+<link rel="icon" type="image/png" href="favicon.png" />
+
+<style>
+/* -------------------- GLOBAL -------------------- */
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+body{
+  font-family:"Poppins",Arial,sans-serif;
+  background:#111;
+  color:#eee;
+  line-height:1.6;
+}
+.wrap{max-width:1200px;margin:auto;padding:20px}
+
+/* -------------------- HEADER -------------------- */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 0;
+  border-bottom:1px solid #333;
+  flex-wrap:wrap;
+}
+.logo img{
+  width:110px;
+  height:auto;
+  object-fit:contain;
+}
+nav{margin-top:10px}
+nav a{
+  color:#d3b670;
+  text-decoration:none;
+  margin-left:18px;
+  font-weight:600;
+  font-size:14px;
+}
+nav a:hover{opacity:.7}
+
+/* -------------------- HERO -------------------- */
+.hero{
+  display:grid;
+  grid-template-columns:1fr 440px;
+  gap:30px;
+  align-items:center;
+  padding:50px 0;
+}
+.hero h1{
+  font-size:38px;
+  font-weight:700;
+  color:#fff;
+  margin-bottom:15px;
+}
+.hero p{
+  font-size:16px;
+  color:#ccc;
+  margin-bottom:22px;
+}
+.btn{
+  display:inline-block;
+  padding:13px 22px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:600;
+  margin-right:10px;
+}
+.btn-gold{background:#d3b670;color:#111;}
+.btn-outline{
+  border:2px solid #d3b670;
+  color:#d3b670;
+}
+
+/* -------------------- FORM / CARD -------------------- */
+.card{
+  background:#1b1b1b;
+  padding:20px;
+  border-radius:12px;
+  border:1px solid #333;
+}
+.card h3{
+  margin-bottom:14px;
+  color:#d3b670;
+}
+input, textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:10px;
+  border-radius:6px;
+  border:1px solid #333;
+  background:#111;
+  color:#eee;
+}
+button{
+  width:100%;
+  padding:12px;
+  border-radius:6px;
+  border:none;
+  background:#d3b670;
+  color:#111;
+  font-weight:700;
+  cursor:pointer;
+}
+button:hover{opacity:.9}
+
+/* -------------------- FEATURES -------------------- */
+.features{padding:50px 0}
+.features h2{
+  font-size:26px;
+  margin-bottom:20px;
+  color:#d3b670;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+.feature{
+  padding:20px;
+  border:1px solid #333;
+  background:#1b1b1b;
+  border-radius:12px;
+}
+.feature h3{
+  color:#d3b670;
+  margin-bottom:8px;
+  font-size:17px;
+}
+
+/* -------------------- FOOTER -------------------- */
+footer{
+  margin-top:40px;
+  padding:20px 0;
+  border-top:1px solid #333;
+  color:#888;
+  font-size:14px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+/* -------------------- MOBILE RESPONSIVE -------------------- */
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr}
+  nav a{margin-left:10px}
+}
+@media(max-width:480px){
+  .hero h1{font-size:30px}
+  .btn{display:block;margin-bottom:10px;width:100%;text-align:center}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<!-- HEADER -->
+<header>
+  <div style="display:flex;align-items:center">
+    <div class="logo">
+      <!-- YOUR LOGO IS NOW SHOWN HERE -->
+      <img src="logo.png" alt="G-Lux Logo">
+    </div>
+    <div class="brand-area" style="margin-left:10px;">
+      <div class="brand-name" style="font-size:24px;font-weight:700;color:#d3b670">G-LUX WORLD VENTURES</div>
+      <div class="rc" style="font-size:13px;color:#aaa">RC: 8636393 • Lagos, Nigeria</div>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <h1>Elevate Your Space with Luxury Bathroom Accessories</h1>
+    <p>At G-Lux World, we craft luxurious bathroom experiences. From premium showers to sleek basins, we redefine comfort and elegance.</p>
+
+    <a href="#products" class="btn btn-gold">View Products</a>
+    <a href="https://wa.me/2348067298811" class="btn btn-outline">Chat on WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h3>Request a Quote</h3>
+
+    <!-- WHATSAPP FORM -->
+    <form id="whatsappForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <textarea id="message" placeholder="Tell us what you need" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" style="padding:40px 0">
+  <h2 style="color:#d3b670;font-size:26px;margin-bottom:10px;">About G-Lux World</h2>
+  <p style="max-width:800px;color:#ccc;font-size:16px;">
+    At G-Lux World Ventures, we redefine bathroom luxury. Our exclusive collection features designer showers,
+    elegant towel rails, premium basins, stylish cabinets, refined tap mixers, water heaters, and more.
+  </p>
+</section>
+
+<!-- PRODUCTS SECTION -->
+<section class="features" id="products">
+  <h2>Our Products</h2>
+  <div class="grid">
+
+    <div class="feature"><h3>Luxury Showers</h3><p>Rejuvenating luxury shower systems.</p></div>
+    <div class="feature"><h3>Designer Towel Rails</h3><p>Durable and elegant finishes.</p></div>
+    <div class="feature"><h3>Stylish Cabinets</h3><p>Premium storage crafted with style.</p></div>
+    <div class="feature"><h3>Premium Basins</h3><p>Modern, elegant bathroom basins.</p></div>
+    <div class="feature"><h3>Tap Mixers</h3><p>Precision-engineered mixers.</p></div>
+    <div class="feature"><h3>Water Heaters</h3><p>Reliable heating solutions.</p></div>
+
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" style="padding:40px 0">
+  <h2 style="color:#d3b670;font-size:26px;margin-bottom:10px;">Contact Us</h2>
+  <p style="color:#ccc;margin-bottom:10px;">📍 <strong>Shop 5/6/7, 1st Floor, Block 15, Agric Market, Orile Coker, Lagos</strong></p>
+  <p style="color:#ccc;margin-bottom:10px;">📞 WhatsApp: <a href="https://wa.me/2348067298811" style="color:#d3b670">Chat Now</a></p>
+  <p style="color:#ccc;">✉️ Email: <a href="mailto:Gluxworldventures@gmail.com" style="color:#d3b670">Gluxworldventures@gmail.com</a></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>© <script>document.write(new Date().getFullYear())</script> G-LUX WORLD VENTURES — RC: 8636393</div>
+  <div>Lagos, Nigeria</div>
+</footer>
+
+</div>
+
+<!-- WHATSAPP SCRIPT -->
+<script>
+document.getElementById("whatsappForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const msg = document.getElementById("message").value;
+
+    const phone = "2348067298811"; // Your WhatsApp number
+
+    const message =
+      "New Quote Request:%0A%0A" +
+      "Name: " + encodeURIComponent(name) + "%0A" +
+      "Email: " + encodeURIComponent(email) + "%0A" +
+      "Message: " + encodeURIComponent(msg);
+
+    const url = "https://wa.me/" + phone + "?text=" + message;
+
+    window.open(url, "_blank");
+});
+</script>
+
+</body>
+</html
